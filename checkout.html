@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <link rel="stylesheet" type="text/css" href="checkout1.css" />
+  <title>freshbox: Checkout</title>
+  <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet" />
+</head>
+
+<body>
+  <div class="header">
+    <div class="nav">
+      <img src="dish.svg" alt="freshbox-logo" height="50em" width="50em" />
+      <a href="index.html" class="link"> freshbox </a>
+      <div class="progress">
+        <span class="dot1"></span>
+        <span class="dot2"></span>
+        <span class="dot3"></span>
+        <span class="dot4"></span>
+        <span class="dot5"></span>
+        <span class="dot6"></span>
+      </div>
+    </div>
+  </div>
+
+  <div class="forpref">
+    <form action="preferences.html">
+      <div class="card0">
+        <div class="title1">
+          <h1>CHECKOUT</h1>
+          <p>* Required</p>
+        </div>
+      </div>
+      <div class="card1">
+        <label for="radio1">
+          <input type="radio" name="radio1" value="card" required />
+          <h2>Add a Credit or Debit Card</h2>
+          <br />
+        </label>
+        <div class="accepted" id="pinput" required>
+          <label for="accepted">
+            Accepted Cards <br />
+            <img src="visa.png" alt="visa" height="50px" width="50px" />
+            <img src="master.png" alt="mastercard" height="50px" width="50px" />
+            <img src="ae.png" alt="ae" height="50px" width="50px" />
+          </label>
+        </div>
+        <div class="cardnumber" id="pinput" required>
+          <label for="cardnumber">
+            Card Number *
+            <input type="text" class="cardnumber" placeholder="1111 2222 3333 4444" minlength="16" maxlength="16" />
+          </label>
+        </div>
+        <div class="expiry" id="pinput" required>
+          <label for="expiry">
+            Expiry Date *
+            <input type="text" class="expiry" placeholder="MM/YY" minlength="5" maxlength="5" />
+          </label>
+        </div>
+        <div class="security" id="pinput" required>
+          <label for="security">
+            Security Code (CVV) *
+            <input type="text" class="security" placeholder="123" minlength="3" maxlength="3" />
+          </label>
+        </div>
+      </div>
+      <div class="or">
+        <h3><i>OR</i></h3>
+      </div>
+      <div class="card2">
+        <div class="title3">
+          <input type="radio" name="radio1" value="paypal" required />
+          <h3>
+            Add a PayPal Account
+            <img src="paypal.png" alt="visa" height="40px" width="40px" />
+        </div>
+        <p>
+          <i> Add AFTER you have placed your order</i>
+        </p>
+      </div>
+      <button type="submit" class="placeorder">
+        Place Order
+      </button>
+      <div class="final">
+        <p> By placing order, you have accepted the: <div class="tc"> <a href=#terms> <b> Terms and Conditions </b> </a>
+          </div> and read the
+          <div class="pp"> <a href=#privacy> <b> Privacy Policy. </b> </a> </div>
+        </p>
+      </div>
+  </div>
+  </form>
+  </div>
+
+  <div class="footer">
+    <p>© freshbox 2019</p>
+  </div>
+</body>
+
+</html>

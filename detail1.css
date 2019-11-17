@@ -1,0 +1,188 @@
+* {
+  font-family: "Roboto", sans-serif;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.nav {
+  width: 100%;
+  position: fixed;
+  background-color: rgba(246, 245, 241);
+  border-radius: 0 0 25px 25px;
+  top: 0;
+  padding-top: 0.7em;
+  padding-bottom: 0.9em;
+  transition: 0.2s;
+  overflow: hidden;
+  z-index: 999;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.06), 0 2px 4px rgba(0, 0, 0, 0.06),
+    0 4px 8px rgba(0, 0, 0, 0.06), 0 8px 16px rgba(0, 0, 0, 0.06),
+    0 16px 32px rgba(0, 0, 0, 0.06), 0 32px 64px rgba(0, 0, 0, 0.06);
+}
+
+.nav a {
+  text-decoration: none;
+  border-radius: 20px;
+}
+
+.nav [alt="freshbox-logo"] {
+  float: left;
+  margin-left: 3%;
+}
+
+.nav .link {
+  float: left;
+  color: black;
+  padding-top: 0.6em;
+  padding-left: 0.5em;
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+.title {
+  font-size: 1em;
+  text-align: center;
+}
+
+form {
+  text-align: center;
+}
+
+.detailform {
+  display: inline-block;
+  font-size: 1em;
+  width: 30em;
+  height: 80em;
+  margin-top: 140px;
+  margin-bottom: 3em;
+  padding-top: 3em;
+  padding-bottom: 3em;
+  border-radius: 25px;
+  background-color: rgba(246, 245, 241);
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.06), 0 2px 4px rgba(0, 0, 0, 0.06),
+    0 4px 8px rgba(0, 0, 0, 0.06), 0 8px 16px rgba(0, 0, 0, 0.06),
+    0 16px 32px rgba(0, 0, 0, 0.06), 0 32px 64px rgba(0, 0, 0, 0.06);
+}
+
+.detailform p {
+  margin-bottom: 3em;
+}
+
+#pinput {
+  padding: 0.5em;
+  text-align: left;
+  margin-left: 3em;
+}
+
+input:not([type="radio"]) {
+  border-radius: 5px;
+  font-size: 1em;
+  color: gray;
+  background-color: white;
+  border: none;
+  width: 87%;
+  padding: 15px 22px;
+  margin: 10px 0px;
+  box-sizing: border-box;
+}
+
+input:not([type="radio"]):focus {
+  color: black;
+}
+
+::placeholder {
+  color: lightgray;
+  opacity: 1;
+}
+select {
+  font-size: 1em;
+  border: 11px solid white;
+  color: gray;
+  background-color: white;
+  margin-top: 0.5em;
+  width: 87%;
+  height: 3.5em;
+}
+
+.checkout {
+  padding: 0.7em;
+}
+
+.footer {
+  text-align: center;
+  color: gray;
+  padding-bottom: 1%;
+}
+
+button {
+  border: none;
+  border-radius: 0px;
+  text-align: center;
+  font-size: 1.2em;
+  width: 75%;
+  text-decoration: none;
+  color: white;
+  background-color: #a7c29b;
+}
+
+button:hover {
+  background-color: #749764;
+  transition: 0.2s ease-in-out;
+}
+
+.progress {
+  z-index: 999;
+  position: absolute;
+  margin-left: 30em;
+  margin-top: 0.8em;
+}
+
+.dot1 {
+  margin-right: 4em;
+  height: 25px;
+  width: 25px;
+  background-color: #4286f5;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.dot2 {
+  background-color: #4286f5;
+  margin-right: 4em;
+  height: 25px;
+  width: 25px;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.dot3 {
+  background-color: #4286f5;
+  margin-right: 4em;
+  height: 25px;
+  width: 25px;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.dot4 {
+  background-color: #c5e2f7;
+  margin-right: 4em;
+  height: 25px;
+  width: 25px;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.dot5,
+.dot6 {
+  margin-right: 4em;
+  height: 25px;
+  width: 25px;
+  background-color: lightgray;
+  border-radius: 50%;
+  display: inline-block;
+}

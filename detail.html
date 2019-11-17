@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <link rel="stylesheet" type="text/css" href="detail1.css" />
+  <title>freshbox</title>
+  <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet" />
+</head>
+
+<body>
+  <div class="header">
+    <div class="nav">
+      <img src="dish.svg" alt="freshbox-logo" height="50em" width="50em" />
+      <a href="index.html" class="link"> freshbox </a>
+      <div class="progress">
+        <span class="dot1"></span>
+        <span class="dot2"></span>
+        <span class="dot3"></span>
+        <span class="dot4"></span>
+        <span class="dot5"></span>
+        <span class="dot6"></span>
+      </div>
+    </div>
+  </div>
+
+  <form action="checkout.html">
+    <div class="detailform">
+      <div class="title">
+        <h2>Your Details</h2>
+        <p>* Required</p>
+      </div>
+      <div class="firstname" id="pinput">
+        <label for="firstname">
+          First Name * <input type="text" class="firstname" required />
+        </label>
+      </div>
+
+      <div class="lastname" id="pinput">
+        <label for="lastname">
+          Last Name * <input type="text" class="lastname" required />
+        </label>
+      </div>
+
+      <div class="addresstype" id="pinput">
+        <label for="addresstype">
+          Address Type
+          <br />
+          <select name="addresstype">
+            <option value="home">Home</option>
+            <option value="work">Work</option>
+          </select>
+        </label>
+      </div>
+      <br />
+
+      <div class="line1" id="pinput">
+        <label for="line1">
+          Address Line 1 * <input type="text" class="line1" required />
+        </label>
+      </div>
+      <div class="line2" id="pinput">
+        <label for="line2">
+          Address Line 2 <input type="text" class="line2" />
+        </label>
+      </div>
+
+      <div class="city" id="pinput">
+        <label for="city">
+          City * <br />
+          <input type="text" class="city" required />
+        </label>
+      </div>
+
+      <div class="poscode" id="pinput">
+        <label for="postcode">
+          Postcode * <input type="text" class="postcode" required />
+        </label>
+      </div>
+
+      <div class="email" id="pinput">
+        <label for="email">
+          Email Address * <input type="email" class="email" required />
+        </label>
+      </div>
+
+      <div class="delivery" id="pinput">
+        <label for="delivery">
+          Delivery Instructions
+          <br />
+          <br />
+          <input type="radio" name="delivery" value="frontdoor" required />
+          Front Door
+          <br />
+
+          <input type="radio" name="delivery" value="reception" />
+          Reception
+          <br />
+
+          <input type="radio" name="delivery" value="backdoor" />
+          Back Door
+          <br />
+
+          <input type="radio" name="delivery" value="other" />
+          Other
+          <input type="text" name="delivery" placeholder="e.g. leave with neighbours" />​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​
+          <br />
+          <br />
+        </label>
+      </div>
+      <div>
+        <button type="submit" class="checkout">
+          Next: Checkout
+        </button>
+      </div>
+    </div>
+  </form>
+
+  <div class="footer">
+    <p>© freshbox 2019</p>
+  </div>
+</body>
+
+</html>

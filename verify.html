@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <link rel="stylesheet" type="text/css" href="verify1.css" />
+  <title>freshbox: Verify</title>
+  <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet" />
+</head>
+
+<body>
+  <div class="header">
+    <div class="nav">
+      <img src="dish.svg" alt="freshbox-logo" height="50em" width="50em" />
+      <a href="index.html" class="link"> freshbox </a>
+      <div class="progress">
+        <span class="dot1"></span>
+        <span class="dot2"></span>
+        <span class="dot3"></span>
+        <span class="dot4"></span>
+        <span class="dot5"></span>
+        <span class="dot6"></span>
+      </div>
+    </div>
+  </div>
+
+  <form action="detail.html">
+    <div class="middle">
+      <div class="verify">
+        <div class="title">
+          <h2>Verify your phone number</h2>
+          <p> Enter the 4 digit code that was sent to you</p>
+        </div>
+        <br />
+        <div class="digit">
+          <input type="number" class="digit1" min="1" max="9" required />
+          <input type="number" class="digit2" min="1" max="9" required />
+          <input type="number" class="digit3" min="1" max="9" required />
+          <input type="number" class="digit4" min="1" max="9" required />
+        </div>
+        <br />
+        <button type="submit" class="next">
+          Next: Your Details
+        </button>
+        <div class="resend">
+          <a href="#resend"> <b> Resend Code </b> </a>
+        </div>
+      </div>
+  </form>
+
+  <div class="footer">
+    <p>© freshbox 2019</p>
+  </div>
+</body>
+
+</html>

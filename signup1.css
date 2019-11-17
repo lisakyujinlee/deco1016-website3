@@ -1,0 +1,300 @@
+* {
+  font-family: "Roboto", sans-serif;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.nav {
+  width: 100%;
+  position: fixed;
+  background-color: rgba(246, 245, 241);
+  border-radius: 0 0 25px 25px;
+  top: 0;
+  padding-top: 0.7em;
+  padding-bottom: 0.9em;
+  transition: 0.2s;
+  overflow: hidden;
+  z-index: 999;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.06), 0 2px 4px rgba(0, 0, 0, 0.06),
+    0 4px 8px rgba(0, 0, 0, 0.06), 0 8px 16px rgba(0, 0, 0, 0.06),
+    0 16px 32px rgba(0, 0, 0, 0.06), 0 32px 64px rgba(0, 0, 0, 0.06);
+}
+
+.nav a {
+  text-decoration: none;
+  border-radius: 20px;
+}
+
+.nav [alt="freshbox-logo"] {
+  float: left;
+  margin-left: 3%;
+}
+
+.nav .link {
+  float: left;
+  color: black;
+  padding-top: 0.6em;
+  padding-left: 0.5em;
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+.middle {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.title p {
+  text-align: center;
+  width: 30%;
+  height: 30%;
+  margin-top: 5%;
+  margin-left: 7%;
+  margin-bottom: 4%;
+}
+
+.middle h2 {
+  text-align: center;
+  width: 30%;
+  height: 30%;
+  margin-top: 5%;
+  margin-left: 7%;
+  margin-bottom: 4%;
+}
+
+.signup {
+  font-size: 1em;
+  margin-top: 140px;
+  margin-bottom: 20px;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  border-radius: 25px;
+  width: 25em;
+  height: 50%;
+  background-color: rgba(246, 245, 241);
+  text-decoration: none;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.06), 0 2px 4px rgba(0, 0, 0, 0.06),
+    0 4px 8px rgba(0, 0, 0, 0.06), 0 8px 16px rgba(0, 0, 0, 0.06),
+    0 16px 32px rgba(0, 0, 0, 0.06), 0 32px 64px rgba(0, 0, 0, 0.06);
+}
+
+.phone {
+  width: 73%;
+  height: 20px;
+  color: gray;
+  background-color: rgba(246, 245, 241);
+  border: none;
+  border-bottom: 1px solid gray;
+  margin-left: 11.5%;
+  padding-right: 2%;
+  padding-bottom: 2%;
+  outline: none;
+  font-size: 1em;
+}
+
+.phone:focus {
+  color: black;
+  border-bottom: 3px solid #749764;
+}
+
+.password1 {
+  width: 73%;
+  height: 20px;
+  color: gray;
+  background-color: rgba(246, 245, 241);
+  border: none;
+  border-bottom: 1px solid gray;
+  margin-left: 11.5%;
+  padding-right: 2%;
+  padding-bottom: 2%;
+  outline: none;
+  font-size: 1em;
+}
+
+.password1:focus {
+  color: black;
+  border-bottom: 3px solid #749764;
+}
+
+.password2 {
+  width: 73%;
+  height: 20px;
+  color: gray;
+  background-color: rgba(246, 245, 241);
+  border: none;
+  border-bottom: 1px solid gray;
+  margin-left: 11.5%;
+  padding-right: 2%;
+  padding-bottom: 2%;
+  outline: none;
+  font-size: 1em;
+}
+
+.password2:focus {
+  color: black;
+  border-bottom: 3px solid #749764;
+}
+
+.signin {
+  text-align: center;
+  padding-bottom: 5%;
+}
+
+.signin a {
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  color: black;
+}
+
+.signin a:hover {
+  color: black;
+}
+
+.signin a:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: black;
+  visibility: hidden;
+  -webkit-transform: scaleX(0);
+  transform: scaleX(0);
+  -webkit-transition: all 0.3s ease-in-out 0s;
+  transition: all 0.3s ease-in-out 0s;
+}
+
+.signin > a:hover:before {
+  visibility: visible;
+  -webkit-transform: scaleX(1);
+  transform: scaleX(1);
+}
+
+.middle button {
+  border: none;
+  border-radius: 0px;
+  text-align: center;
+  font-size: 1.2em;
+  padding: 0.5em 0.5em;
+  width: 75.5%;
+  text-decoration: none;
+  color: white;
+  background-color: #a7c29b;
+  margin-left: 11.5%;
+  margin-top: 10%;
+  margin-bottom: 5%;
+}
+
+.middle button:hover {
+  background-color: #749764;
+  transition: 0.2s ease-in-out;
+}
+
+.other {
+  font-size: 1em;
+  padding-top: 2.5em;
+  border-radius: 25px;
+  width: 25em;
+  height: 8em;
+  margin-top: 20px;
+  margin-bottom: 5%;
+  background-color: rgba(246, 245, 241);
+  text-decoration: none;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.06), 0 2px 4px rgba(0, 0, 0, 0.06),
+    0 4px 8px rgba(0, 0, 0, 0.06), 0 8px 16px rgba(0, 0, 0, 0.06),
+    0 16px 32px rgba(0, 0, 0, 0.06), 0 32px 64px rgba(0, 0, 0, 0.06);
+}
+
+.other a:first-child {
+  border: none;
+  border-radius: 0px;
+  text-align: right;
+  font-size: 1.2em;
+  padding: 0.8em 3em;
+  width: 72%;
+  text-decoration: none;
+  color: white;
+  background-color: #3b5999;
+  margin-left: 11.5%;
+  margin-top: 9%;
+}
+
+.other a:first-child:hover {
+  background-color: #112f6f;
+  transition: 0.2s ease-in-out;
+}
+
+.other a:nth-child(5) {
+  border: none;
+  border-radius: 0px;
+  text-align: right;
+  font-size: 1.2em;
+  padding: 0.8em 3.58em;
+  width: 72%;
+  text-decoration: none;
+  color: white;
+  background-color: #4286f5;
+  margin-left: 11.5%;
+  margin-top: 9%;
+}
+
+.other a:nth-child(5):hover {
+  background-color: #185ccb;
+  transition: 0.2s ease-in-out;
+}
+
+.footer {
+  text-align: center;
+  color: gray;
+  padding-bottom: 1%;
+}
+
+.progress {
+  z-index: 999;
+  position: absolute;
+  margin-left: 30em;
+  margin-top: 0.8em;
+}
+
+.dot1 {
+  margin-right: 4em;
+  height: 25px;
+  width: 25px;
+  background-color: #4286f5;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.dot2 {
+  background-color: #c5e2f7;
+  margin-right: 4em;
+  height: 25px;
+  width: 25px;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.dot3,
+.dot4,
+.dot5,
+.dot6 {
+  margin-right: 4em;
+  height: 25px;
+  width: 25px;
+  background-color: lightgray;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+#error_message {
+  background-color: rgb(246, 245, 241);
+  color: gray;
+  border: none;
+}

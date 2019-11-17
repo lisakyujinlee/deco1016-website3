@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" type="text/css" href="preferences1.css" />
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet" />
+    <title>freshbox: All you!</title>
+</head>
+
+<body>
+    <div class="header">
+
+        <div class="nav">
+            <img src="dish.svg" alt="freshbox-logo" height="50em" width="50em" />
+            <a href="index.html" class="link"> freshbox </a>
+            <div class="progress">
+                <span class="dot1"></span>
+                <span class="dot2"></span>
+                <span class="dot3"></span>
+                <span class="dot4"></span>
+                <span class="dot5"></span>
+                <span class="dot6"></span>
+            </div>
+        </div>
+    </div>
+
+    <div class="middle">
+        <form action="endpoint.html">
+            <div class="title">
+                <h1>Your Preferences</h1>
+                <h3><i> What is good food to you? </i></h3>
+                <p> We want to make this experience as personalised as we can for you. </p>
+            </div>
+            <div class="boxes">
+                <div class="box1">
+                    <h2>Let's sort out the specifics first!</h2>
+                    <p>Feel free to rate yourself below.</p> <br>
+                    <label for="recipe">Are you good at following recipes?
+                        <div class="radio1">
+                            <input type="radio" name="recipe" value=yes /> Yes
+                            <input type="radio" name="recipe" value=no /> No </div> <br> <br> </label> <br>
+                    <label for="alone">Do you eat alone often?
+                        <div class="radio1">
+                            <input type="radio" name="alone" value=yes /> Yes
+                            <input type="radio" name="alone" value=no /> No </div> <br> <br> </label> <br>
+                    <label for="spicy">Do you enjoy eating spicy food?
+                        <div class="radio1">
+                            <input type="radio" name="spicy" value=yes /> Yes
+                            <input type="radio" name="spicy" value=no /> No </div> <br> <br> </label> <br>
+                    <label for="sweet">Do you enjoy eating sweet food?
+                        <div class="radio1">
+                            <input type="radio" name="sweet" value=yes /> Yes
+                            <input type="radio" name="sweet" value=no /> No </div> <br> <br> </label> <br>
+                    <label for="time">Do you prioritise shorter cooking times over quality of the food? <br> <br>
+                        <div class="radio1">
+                            <input type="radio" name="time" value=yes /> Yes
+                            <input type="radio" name="time" value=no /> No </div> <br> <br>
+                    </label> <br>
+                    <label for="good"> Are you good at cooking?
+                        <div class="radio1">
+                            <input type="radio" name="good" value=yes /> Yes
+                            <input type="radio" name="good" value=no /> No </div> <br> <br> </label> <br>
+                </div>
+                <div class="box2">
+                    <h2> Which cuisines do you prefer? </h2>
+                    <p>Hold down Ctrl / Command to select multiple options.</p>
+                    <select name="cuisine" multiple>
+                        <option value="korean"> Korean </option> <br><br>
+                        <option value="thai"> Thai</option> <br><br>
+                        <option value="japanese"> Japanese </option><br><br>
+                        <option value="chinese"> Chinese</option> <br><br>
+                        <option value="italian"> Italian </option><br><br>
+                        <option" value="mexican"> Mexican</option> <br><br>
+                            <option value="turkish"> Turkish </option><br><br>
+                            <option value="greek"> Greek</option> <br><br>
+                            <option value="medi"> Mediterranean </option><br><br>
+                            <option value="indian"> Indian <br><br>
+                    </select>
+                    <div class="box3">
+                        <input type=checkbox> Other <br> <input type="text" name="other"
+                            placeholder="Any suggestions?" /> </input>
+                    </div>
+                </div>
+                <div class="box4">
+                    <input type="text" name="allergy" placeholder="Do you have any allergies or food requirements?" />
+                </div>
+                <div class="box5">
+                    <input type="reset" />
+                </div>
+                <br>
+                <div class="box6">
+                    <input type="submit" name="submit" />
+                </div>
+                <div class="skip">
+                    <a href="endpoint.html" class="skip"> Skip for later </a>
+                </div>
+            </div>
+        </form>
+    </div>
+
+    <div class="footer">
+        <p>© freshbox 2019</p>
+    </div>
+</body>
+
+</html>
