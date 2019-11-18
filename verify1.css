@@ -87,7 +87,7 @@ body {
   border-bottom: 1px solid black;
   margin-left: 1.2em;
   outline: none;
-  font-size: 3em;
+  font-size: 2em;
 }
 .digit2 {
   text-align: center;
@@ -96,7 +96,7 @@ body {
   border: none;
   border-bottom: 1px solid black;
   outline: none;
-  font-size: 3em;
+  font-size: 2em;
 }
 .digit3 {
   text-align: center;
@@ -105,7 +105,7 @@ body {
   border: none;
   border-bottom: 1px solid black;
   outline: none;
-  font-size: 3em;
+  font-size: 2em;
 }
 .digit4 {
   text-align: center;
@@ -114,7 +114,7 @@ body {
   border: none;
   border-bottom: 1px solid black;
   outline: none;
-  font-size: 3em;
+  font-size: 2em;
 }
 
 .digit1:focus {
